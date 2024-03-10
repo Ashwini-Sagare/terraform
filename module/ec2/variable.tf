@@ -1,9 +1,9 @@
 variable "access_key_id" {
-  default = "AKIAXS22627VTLCRR3HP"
+  default = "your_access_key_id"
 }
 
 variable "secret_access_key" {
-  default = "kkIqs3uVkDU8uPiV3q2vhYbUK6DTzriW0CFJzl2n"
+  default = "Your_secret_access_key"
 }
 
 variable "ami_value" {
