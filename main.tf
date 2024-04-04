@@ -103,7 +103,7 @@ resource "aws_sns_topic" "ec2_stop_notification" {
 resource "aws_sns_topic_subscription" "snssubscription" {
   topic_arn = aws_sns_topic.ec2_stop_notification.arn
   protocol = "email"
-  endpoint = "sagare.ashu18@gmail.com"
+  endpoint = "mail@gmail.com"
 }
 
 resource "aws_sns_topic_subscription" "snssubscription_lambda" {
